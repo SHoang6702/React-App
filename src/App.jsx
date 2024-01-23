@@ -20,13 +20,6 @@ function App() {
             <p className="text-lg text-slate-200 font-medium">Sebastian Hoang</p>
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
-                href="#home"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-              >
-                [Home] 
-              </a>
-
-              <a
                 href="#about"
                 className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
               >
@@ -122,32 +115,18 @@ function App() {
               Projects.map((p) => (
                 <div
                   key={p.id}
-                  className="border border-zinc-800 rounded-md p-2 min-w-[27px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out"
+                  className=""
                 >
-                  <p className="text-lg text-textBase font-medium uppercase">
+                  <p className="">
                     {p.name.length > 25 ? `${p.name.slice(0, 25)}...` : p.name}
                   </p>
                   <a href={p.github} alt="Github link">
                     <img
                       src={p.image}
-                      className="w-full h-full object-cover rounded-md my-4"
+                      className=""
                       alt=""
                     />
                   </a>
-                  <div className="flex flex-1 items-center justify-center">
-                    <p className="text-lg text-gray-300">
-                      Technologies
-                      <span className="block text-sm to-gray-500">
-                        {p.techs}
-                      </span>
-                    </p>
-
-                    <a href={p.github}>
-                      <motion.div whileTap={{ scale: 0.8 }}>
-                        <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />
-                      </motion.div>
-                    </a>
-                  </div>
                 </div>
               ))}
           </section>
