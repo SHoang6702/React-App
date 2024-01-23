@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IoMenu, IoLogoGithub } from "react-icons/io5";
+import Photo from "./images/AIT.png";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -52,13 +53,23 @@ function App() {
         <main className="w-[80%] mt-5">
           {/*About section */}
           <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24" id="about">
-            {/*Content of about Container */}
+
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-lg text-textBase text-center">
                 I'm Sebastian Hoang. A mechanic with the Texas Army National Guard. I'm currently studying at the UTSA under their coding bootcamp
                 to improved my knowledge and open up potential future career paths.
               </p>
             </div>
+            <div className="w-275 h-340 bg-emerald-200 rounded-md relative">
+                <img
+                  className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg shadow-lg"
+                  src={Photo}
+                  alt="AIT Picture"
+                />
+                <p className="text-lg text-textBase text-center">
+                  PFC Hoang in AIT, Fort Eustis, VA 2022
+                </p>
+              </div>
           </section>
 
           <section className="w-full flex items-center justify-center">
