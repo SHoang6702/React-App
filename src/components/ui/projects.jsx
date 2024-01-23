@@ -1,7 +1,7 @@
 
 import REGEXTutorial from "../../images/REGEXTutorial.png";
-import workdayScheduler from "../../images/workdayScheduler.png";
 import textEditor from "../../images/textEditor.png";
+import workdayScheduler from "../../images/workdayScheduler.png";
 
 
 export const Projects = [
@@ -10,7 +10,7 @@ export const Projects = [
     name: "REGEX Email Tutorial",
     image: REGEXTutorial,
     techs: "Javascript, Node JS, Express JS",
-    github: "https://github.com/SHoang6702/REGEX-Tutorial",
+    github: "https://github.com/SHoang6702/03b8c91217826d0f8d5ae5dfa284e642",
   },
   {
     id: 2,
