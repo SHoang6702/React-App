@@ -16,6 +16,7 @@ Github Repository:
 https://github.com/SHoang6702/SHoang-React-Portfolio
 
 Netifly Deployed Link:
+https://prismatic-taffy-407d6c.netlify.app/
 
 ## Credits
 Sebastian Hoang: https://github.com/SHoang6702
