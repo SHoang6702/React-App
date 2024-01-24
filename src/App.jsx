@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { IoMenu, IoLogoGithub } from "react-icons/io5";
 import Photo from "./images/AIT.png";
 import {
   VerticalTimeline,
