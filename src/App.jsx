@@ -55,7 +55,7 @@ function App() {
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-lg text-textBase text-center">
                 I'm Sebastian Hoang. A mechanic with the Texas Army National Guard. I'm currently studying at the UTSA under their coding bootcamp
-                to improved my knowledge and open up potential future career paths.
+                to improved my knowledge and open up potential future career paths. I have a preference for back end development though can do both front end and back end development.
               </p>
             </div>
             <div className="w-275 h-340 bg-emerald-200 rounded-md relative">
