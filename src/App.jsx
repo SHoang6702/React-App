@@ -22,27 +22,27 @@ function App() {
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
                 href="#about"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                className="text-base text-textBase font-medium"
               >
                 [About] 
               </a>
 
               <a
                 href="#projects"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                className="text-base text-textBase font-medium"
               >
                 [Projects]
               </a>
               <a
 
                 href="#resume"
-                className="ml-auto text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
+                className="ml-auto text-textBase font-medium"
               >
                 [Resume]
               </a>
               <a
                 href="#contact"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                className="text-base text-textBase font-medium"
               >
                 [Contact]
               </a>
