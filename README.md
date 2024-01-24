@@ -22,6 +22,8 @@ https://prismatic-taffy-407d6c.netlify.app/
 Sebastian Hoang: https://github.com/SHoang6702
 
 Special thanks to:
+### Friends
+- Arthur Bridges: https://github.com/Arthur-Bridges
 ### Resources
 - https://www.w3schools.com/
 - https://stackoverflow.com/
