@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "tailwinds.config.js",
+  "main": "./src/App.jsx",
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.25",
