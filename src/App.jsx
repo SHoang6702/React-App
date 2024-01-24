@@ -65,7 +65,7 @@ function App() {
                   alt="AIT Picture"
                 />
                 <p className="text-lg text-textBase text-center">
-                  PFC Hoang in AIT, Fort Eustis, VA 2022
+                  PFC Hoang, Army Aviation Logistics School, Fort Eustis, VA 2022
                 </p>
               </div>
           </section>
