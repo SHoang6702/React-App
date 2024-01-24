@@ -52,7 +52,7 @@ function App() {
         {/* MAIN */}
         <main className="w-[80%] mt-5">
           {/*About section */}
-          <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24" id="about">
+          <section className="" id="about">
 
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-lg text-textBase text-center">
